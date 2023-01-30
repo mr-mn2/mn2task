@@ -1,0 +1,14 @@
+{
+    "name": "mohammad/task-manager",
+    "description": "mn2-tasks",
+    "type": "project",
+    "require": {
+        "hekmatinasser/verta": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mohammad\\TaskManager\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
