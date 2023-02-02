@@ -51,7 +51,10 @@ input {
   font-size: 1.5em;
   font-weight: 700;
 }
+.link :hover{
+  cursor: pointer;
 
+}
 .pageHeader .userPanel {
   width: 40%;
   float: right;
@@ -126,6 +129,9 @@ input {
 .main .nav .menu ul {
   padding-left: 0px;
 }
+.main .nav .menu ul li a {
+  
+}
 .main .nav .menu ul li {
   cursor: pointer;
   list-style: none;
@@ -138,6 +144,8 @@ input {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   transition: 0.25s all;
+  text-decoration: none;
+  color: black;
 }
 .main .nav .menu ul li.active {
   color: #79BC46;

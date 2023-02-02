@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" >
+<?php
+defined("BASE_PATH") or die("peremetion denied");
+?>
 <head>
   <meta charset="UTF-8">
   <title><?= SITE_TITLE?></title>
