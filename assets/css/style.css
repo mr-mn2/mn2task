@@ -53,7 +53,10 @@ input {
 }
 .link :hover{
   cursor: pointer;
-
+}
+.created-at{
+  margin-right: 10px;
+  font-size: 11px;
 }
 .pageHeader .userPanel {
   width: 40%;
@@ -121,17 +124,17 @@ input {
   margin: 15px;
   color: #555;
 }
+
 .main .nav .menu .title {
   font-weight: 700;
   font-size: 1.0em;
   text-transform: uppercase;
+  margin: 10px 0px 0 5px ;
 }
 .main .nav .menu ul {
   padding-left: 0px;
 }
-.main .nav .menu ul li a {
-  
-}
+
 .main .nav .menu ul li {
   cursor: pointer;
   list-style: none;
@@ -144,11 +147,11 @@ input {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   transition: 0.25s all;
-  text-decoration: none;
+  text-decoration: none ;
   color: black;
 }
-.main .nav .menu ul li.active {
-  color: #79BC46;
+.main .nav .menu ul li.active a {
+  color: #79BC46 !important;
 }
 .main .nav .menu ul li:hover {
   background-color: #999;
@@ -176,8 +179,21 @@ input {
   font-size: 1.4em;
   font-weight: 400;
   padding: 0px;
-  color: #AAA;
-  margin-top: -18px;
+  color: #dbdbdb;
+  margin-top: -24px;
+  width: 35%;
+  height: 100%;
+}
+#folderName{
+  width: 70%;
+  
+  height: 80%;
+}
+
+#taskName{
+  width: 70%;
+  margin-left: 12px;
+  height: 80%;
 }
 .main .view .viewHeader .functions {
   float: right;
@@ -235,6 +251,22 @@ input {
   font-size: 20px;
   border: 1px solid #d3d3d3;
   margin-left: 3px;
+}
+.create-folder-button:hover{
+  cursor: pointer;
+  border: #000 solid 2px;
+}
+.create-task-button {
+  width: 46px;
+    height: 39px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: 1px solid #d3d3d3;
+    margin-left: 3px;
+}
+.create-task-button:hover{
+  cursor: pointer;
+  border: #000 solid 2px;
 }
 
 .main .view .content .list ul li {
